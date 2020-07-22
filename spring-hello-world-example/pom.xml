@@ -54,17 +54,30 @@
 						<format>xml</format>
 					</formats>
 				</configuration>
-				<dependencies>  
-                <dependency>  
-                    <groupId>org.ow2.asm</groupId>  
-                    <artifactId>asm</artifactId>  
-                    <version>5.0.3</version>  
-                </dependency>  
-            </dependencies>  
+				<dependencies>
+					<dependency>
+						<groupId>org.ow2.asm</groupId>
+						<artifactId>asm</artifactId>
+						<version>5.0.3</version>
+					</dependency>
+				</dependencies>
 			</plugin>
 		</plugins>
 
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>DESKTOP-28T382F-releases</name>
+			<url>http://localhost:8081/artifactory/my-repository</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>DESKTOP-28T382F-snapshots</name>
+			<url>http://localhost:8081/artifactory/my-repository</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 
 </project>
