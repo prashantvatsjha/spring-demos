@@ -66,16 +66,11 @@
 
 	</build>
 
-	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>DESKTOP-28T382F-releases</name>
-			<url>http://localhost:8081/artifactory/libs-release-local</url>
-		</repository>
+	<distributionManagement>	
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>DESKTOP-28T382F-snapshots</name>
-			<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+			<url>http://localhost:8081/artifactory</url>
 		</snapshotRepository>
 	</distributionManagement>
 
