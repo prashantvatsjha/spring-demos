@@ -68,15 +68,11 @@
 
 	<distributionManagement>
 		<repository>
-			<id>central</id>
+			<id>my-repository</id>
 			<name>DESKTOP-28T382F-releases</name>
-			<url>http://localhost:8081/artifactory/my-repository</url>
+			<url>http://localhost:8081/artifactory</url>
 		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>DESKTOP-28T382F-snapshots</name>
-			<url>http://localhost:8081/artifactory/my-repository</url>
-		</snapshotRepository>
+		
 	</distributionManagement>
 
 
