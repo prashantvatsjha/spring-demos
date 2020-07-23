@@ -15,7 +15,7 @@ public class LoginTest {
 
 	@Test
 	public void testLogin() {
-		Assert.assertTrue(LoginService.doLogin());
+		Assert.assertFalse(LoginService.doLogin());
 	}
 	
 }
