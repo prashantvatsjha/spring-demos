@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
+8<project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -15,7 +15,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
-	<dependencies>
+	 <dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -66,7 +66,18 @@
 
 	</build>
 
-	
-
+	<!--distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>DESKTOP-28T382F-releases</name>
+			<url>http://localhost:8081/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>DESKTOP-28T382F-snapshots</name>
+			<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
+	-->
 
 </project>
