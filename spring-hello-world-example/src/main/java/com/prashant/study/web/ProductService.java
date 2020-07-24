@@ -12,6 +12,14 @@ public class ProductService {
 		prodList.add(new Product(1, "Laptop", "Lenovo Thinpad"));
 		prodList.add(new Product(2, "Laptop", "HP"));
 		prodList.add(new Product(3, "Mobile", "Realme"));
+		Product myProd=new Product();
+		myProd.setName("Desktop");
+		myProd.setId(4);
+		myProd.setDesc("HP");
+		prodList.add(myProd);
+		
+		
+		
 	}
 
 	public static List<Product> fetchProduct() {
