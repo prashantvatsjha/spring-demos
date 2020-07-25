@@ -3,8 +3,8 @@
 <title>Test</title>
 </head>
 
-<body>
+<body style="background-color:blue;">
 <h2>Hello World!</h2>
-Building by jenkins
+Building by jenkins again!!
 </body>
 </html>
